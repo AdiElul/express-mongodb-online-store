@@ -23,8 +23,8 @@ app.get("/product", products.getAll);
 app.get("/product/:id", products.getProduct);
 app.delete("/product/:id", products.deleteProduct);
 
-app.get("/category", categories.getAll);
 app.put("/category", categories.createCategory);
+app.get("/category", categories.getAll);
 app.get("/category/:id", categories.getCategory);
 app.delete("/category/:id", categories.deleteCategory);
 
